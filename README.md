@@ -62,21 +62,15 @@ Instale as dependências
 Inicie o servidor
 
 ```bash
-  python server.py
+  python servidor.py
 
 ```
 Inicie o cliente
 
 ```bash
-  python client.py
+  python cliente.py
   
 ```
-
-
-## Aprendizados
-
-O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
-
 
 ## Autores
 
