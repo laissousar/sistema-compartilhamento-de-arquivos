@@ -62,13 +62,13 @@ Instale as dependências
 Inicie o servidor
 
 ```bash
-  python server.py
+  python servidor.py
 
 ```
 Inicie o cliente
 
 ```bash
-  python client.py
+  python cliente.py
   
 ```
 
