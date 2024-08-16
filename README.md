@@ -72,12 +72,6 @@ Inicie o cliente
   
 ```
 
-
-## Aprendizados
-
-O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
-
-
 ## Autores
 
 - [@laissousar](https://github.com/laissousar)
