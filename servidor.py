@@ -66,12 +66,19 @@ class FileServerService(rpyc.Service):
         bytes: Dados binários do arquivo, ou None se o arquivo não for encontrado.
         """
         if filename in self.files:
-            print(f"Enviando arquivo {filename} para o cliente.")
-            with open(self.files[filename], 'rb') as f:
-                return f.read()    
+            try:
+                file_path = self.files[filename]
+                print(f"Tentando enviar o arquivo {filename} localizado em {file_path} para o cliente.")
+                with open(file_path, 'rb') as f:
+                    return f.read()
+            except FileNotFoundError:
+                print(f"Erro: O arquivo {filename} não foi encontrado no caminho {file_path}.")
+            except Exception as e:
+                print(f"Ocorreu um erro ao tentar ler o arquivo {filename}: {e}")
         else:
-            print(f"Arquivo {filename} não encontrado.")
-            return None
+            print(f"Arquivo {filename} não encontrado na lista de arquivos disponíveis.")
+        return None
+
 
     def exposed_register_interest(self, filename, duration):
         """

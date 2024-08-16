@@ -1,0 +1,88 @@
+
+
+AWS Service Catalog -
+gerenciar serviços de TI implantados e governar sua infraestrutura como modelos de código (IaC) -
+
+ descobrir, transformar e visualizar os dados - Amazon QuickSight ( Business intelligence unificada em hiperescala) e AWS Glue (Descubra, prepare e integre todos os seus dados em qualquer escala)
+
+AWS Professional Services - Ajuda de uma equipe global de especialistas para concluir a migração de forma mais rápida e confiável, de acordo com as melhores práticas internas da AWS.
+
+AWS Elastic Beanstalk - Implantar aplicação rapido e facil, concentração no codigo
+
+AWS CloudFormation - modelar, provisionar e gerenciar recursos da AWS e de terceiros ao tratar a infraestrutura como código. TRATA INFRA COMO CODIGO 
+
+AWS Direct Connect - CONEXÃO DE REDE DEDICADA entre o data center local a e a Nuvem AWS
+
+IAM Credential Report - RELATORIO DE CREDENCIAIS que lista todos os usuários em sua conta e o status de diversas credenciais deles, incluindo senhas, chaves de acesso e dispositivos MFA.
+
+AWS Budgets E Amazon CloudWatch - Receber uma notificação quando um limite de custo específico da AWS for atingido.
+
+AWS Knowledge Center - fornece respostas às perguntas relacionadas à segurança mais frequentes que a AWS recebe de seus usuários
+
+Amazon Simple Notification Service (Amazon SNS)- app distribuidos
+
+Access keys (Chaves de Acesso) - acesso programático aos recursos da AWS por meio da AWS CLI ou da API da AWS.
+
+AWS Shield
+Maximize a disponibilidade e a capacidade de resposta da aplicação com proteção contra DDoS gerenciada
+
+
+AWS WAF - contra explorações comuns da Web e bots que podem afetar a DISPONIBILIDADE, comprometer a segurança ou consumir RECURSOS EXECSSIVOS
+
+Amazon GuardDuty - Detecção de ameaças da AWS que monitora continuamente atividades mal-intencionadas e comportamentos não autorizados
+
+Amazon Athena - ANALISE DADOS em escala de petabytes onde eles estão com facilidade e flexibilidade
+ 
+
+Amazon Redshift - A melhor relação entre preço e performance para data warehouse na nuvem
+ 
+AWS Organizations - Sem custo adicional 
+
+AWS Config - Avalie, audite e avalie as configurações de seus recursos
+
+AWS - fluencia na nuvem
+
+Redução dos custos variáveis ​​em relação aos custos fixos
+
+Amazon Macie - capacidade de descobrir e proteger dados confidenciais armazenados em buckets do Amazon S3
+
+Amazon Relational Database Service (Amazon RDS) - é um serviço da Web que facilita a configuração, a operação e escalabilidade de um banco de dados relacional na Nuvem AWS.
+
+AWS KMS -> usado para fornecer criptografia para Amazon EBS - Crie e controle chaves usadas para criptografar ou assinar digitalmente seus dados
+
+Qual tarefa é de responsabilidade do cliente, -> Configurar firewalls e redes.
+
+Amazon S3 -> armazenamento de objetos altamente durável
+
+Amazon Elastic Block Store (Amazon EBS) -> armazenamento em blocos fácil de usar, escalável e de alta performance projetado para o Amazon Elastic Compute Cloud (Amazon EC2).
+
+Amazon Elastic File System (Amazon EFS) -> Armazenamento de arquivos sem servidor e totalmente elástico
+
+AWS Storage Gateway -> Oferece aplicações ON-PROMESES com acesso a armazenamento virtual na nuvem praticamente ilimitado || armazenamento em nuvem hibrida
+
+
+AWS Budgets -> planejamento e o controle de custos com orçamentos e previsões flexíveis
+
+Amazon FSx -> servidor de arquivos -  execute e escale sistemas de arquivos com muitos recursos e de alta performance com apenas alguns cliques
+
+Savings Plans -> comprometendo-se com gastos por hora durante um período de um ou três anos.
+
+Amazon EC2 -processamento de dados uma vez por semana, o que normalmente leva cerca de 5 horas para ser concluído.
+
+EKS -> serviço gerenciado que elimina a necessidade de instalar, operar e manter o seu próprio ambiente de gerenciamento do Kubernetes na Amazon Web Services (AWS).automatiza o gerenciamento, a escalação e a implantação de aplicações conteinerizadas.
+
+ECS ->  um serviço totalmente gerenciado de orquestração de contêineres ajuda a implantar, gerenciar e dimensionar facilmente aplicações conteinerizadas.
+
+EKS E ECS -> GERENCIADOS
+
+
+Migration Evaluator -> avaliação personalizada de seu ambiente local atual. A empresa deseja entender seus custos operacionais projetados na Nuvem AWS.
+avaliação personalizada baseada no ambiente local projeto na nuvem
+
+AMAZON MACIE -> DADOS SENSIVEIS
+
+AWS GLUE -> EXTRAIR, TRANSFORMAR E CARREGAR DADOS
+
+INSTANCIA SPORT -> SERVIÇOS SEM ESTADO
+
+ACLs -> staless

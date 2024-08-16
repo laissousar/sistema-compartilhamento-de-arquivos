@@ -138,18 +138,29 @@ class FileClientGUI(QWidget):
             QMessageBox.information(self, 'Arquivos Disponíveis', 'Nenhum arquivo disponível.')
 
     def show_download_screen(self):
-        """
-        Exibe a tela para inserir o nome do arquivo e realizar o download.
-        """
+        # Abre uma caixa de diálogo para o usuário digitar o nome do arquivo
         filename, ok = QInputDialog.getText(self, 'Download', 'Digite o nome do arquivo:')
         if ok:
+            # Solicita o arquivo ao servidor
             data = self.conn.root.download_file(filename)
+            
             if data:
-                with open(filename, 'wb') as f:
+                # Obtém o caminho para a pasta "Downloads" do usuário
+                downloads_folder = os.path.join(os.path.expanduser("~"), "Downloads")
+                
+                # Cria o caminho completo onde o arquivo será salvo
+                file_path = os.path.join(downloads_folder, filename)
+                
+                # Salva o arquivo na pasta "Downloads"
+                with open(file_path, 'wb') as f:
                     f.write(data)
-                QMessageBox.information(self, 'Sucesso', f'Arquivo {filename} baixado com sucesso!')
+                
+                # Informa ao usuário que o download foi bem-sucedido
+                QMessageBox.information(self, 'Sucesso', f'Arquivo {filename} baixado com sucesso em {file_path}!')
             else:
+                # Informa ao usuário que o arquivo não foi encontrado no servidor
                 QMessageBox.warning(self, 'Erro', 'Arquivo não encontrado no servidor.')
+
 
     def show_interest_screen(self):
         """
