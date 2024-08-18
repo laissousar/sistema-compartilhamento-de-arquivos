@@ -33,11 +33,6 @@ Este projeto implementa um sistema de compartilhamento de arquivos utilizando RP
 
 **Protocolo de Comunicação:** RPC (Remote Procedure Call)
 
-## Demonstração
-
-Insira um gif ou um link de alguma demonstração
-
-
 ## Rodando localmente
 
 Clone o projeto
